@@ -57,7 +57,7 @@ describe('POST Request test', () => {
         cy.log('Test case 1.5: Missing Username, Password, and Signature')
         runTestCase(requestBody, expected412Outcome, errorMessages.missingAll)
     })
-
+//
     // Scenario 6: Validation for short username
     it("Validation for short username", () => {
         const requestBody = { username: "a", password, signature }
