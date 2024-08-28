@@ -1,0 +1,10 @@
+{
+  "reporter": "./custom-reporter.js",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "quiet": true,
+    "json": true,
+    "html": true
+  }
+}
